@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: serd
+  m_Controller: {fileID: 9100000, guid: e322248d7409050469e0db20070a19f0, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 8b9497d39b04dbe4e8bf122339b7c03e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e8f083f8803b49d4783337f147833919, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 624e91e798330d047866a6bf1227c249, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9ea7029747f638a42960c03b8ddb7010, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a446cd914cc321f44a1cb25c5bf92f89, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c6e35a1ef07a99d41a81d45a8a03be2a, type: 2}

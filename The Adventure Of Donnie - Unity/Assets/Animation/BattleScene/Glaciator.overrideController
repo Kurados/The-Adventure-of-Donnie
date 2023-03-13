@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Glaciator
+  m_Controller: {fileID: 9100000, guid: e322248d7409050469e0db20070a19f0, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 8b9497d39b04dbe4e8bf122339b7c03e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 54d8e257a199ac84ca560523027d0e34, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 624e91e798330d047866a6bf1227c249, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 832ae0951ed1fdc4394a339bfe663705, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a446cd914cc321f44a1cb25c5bf92f89, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a0baa1020823d2e4797356b33ab4c865, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f5b2481c34092d74cb7b4bdd8c3e5ef9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: edcbfffebb9f0254f8d8c13ab0cde02d, type: 2}

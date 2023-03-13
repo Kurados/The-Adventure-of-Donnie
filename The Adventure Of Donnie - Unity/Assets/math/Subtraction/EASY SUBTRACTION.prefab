@@ -1,0 +1,293 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &22933686817690882
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 22933686817690880}
+  - component: {fileID: 22933686817690883}
+  m_Layer: 0
+  m_Name: EASY SUBTRACTION
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &22933686817690880
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22933686817690882}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -27.44629, y: 7.3265533, z: -20.159082}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &22933686817690883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22933686817690882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef0f100b2f30e046ae97e5749a48f13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _questions:
+  - fact: '10 - 6 = '
+    a: 4
+    b: 5
+    c: 6
+    d: 2
+    answer: 1
+  - fact: 12 - 4 =
+    a: 2
+    b: 8
+    c: 9
+    d: 10
+    answer: 2
+  - fact: 16 - 8 =
+    a: 7
+    b: 10
+    c: 8
+    d: 5
+    answer: 3
+  - fact: 18 - 13 =
+    a: 7
+    b: 6
+    c: 3
+    d: 5
+    answer: 4
+  - fact: '23 - 5 = '
+    a: 17
+    b: '16 '
+    c: 18
+    d: 14
+    answer: 1
+  - fact: 25 - 8 =
+    a: 1
+    b: 18
+    c: 23
+    d: 19
+    answer: 2
+  - fact: 28 - 18 =
+    a: 24
+    b: 16
+    c: 10
+    d: 8
+    answer: 3
+  - fact: 36 - 24 =
+    a: 20
+    b: 18
+    c: 4
+    d: 12
+    answer: 4
+  - fact: 38 - 15 =
+    a: 23
+    b: 24
+    c: 19
+    d: 20
+    answer: 1
+  - fact: '43 - 19 = '
+    a: 22
+    b: 24
+    c: 18
+    d: 20
+    answer: 1
+  - fact: 45 - 23 =
+    a: 33
+    b: 22
+    c: 4
+    d: 20
+    answer: 2
+  - fact: 48 - 29 =
+    a: 33
+    b: 22
+    c: 27
+    d: 20
+    answer: 3
+  - fact: 53 -15 =
+    a: 33
+    b: 22
+    c: 27
+    d: 38
+    answer: 4
+  - fact: 20 - 4 =
+    a: 17
+    b: 16
+    c: 18
+    d: 15
+    answer: 2
+  - fact: 19 - 6 =
+    a: 17
+    b: 16
+    c: 13
+    d: 15
+    answer: 3
+  - fact: 18 - 12 =
+    a: 4
+    b: 10
+    c: 8
+    d: 6
+    answer: 4
+  - fact: '17 - 8 = '
+    a: 9
+    b: 10
+    c: 8
+    d: 6
+    answer: 1
+  - fact: 16 - 4 =
+    a: 9
+    b: 10
+    c: 12
+    d: 6
+    answer: 3
+  - fact: '15 - 5 = '
+    a: 8
+    b: 9
+    c: 12
+    d: 10
+    answer: 4
+  - fact: 14 - 9 =
+    a: 3
+    b: 5
+    c: 12
+    d: 12
+    answer: 1
+  - fact: 13 -5 =
+    a: 3
+    b: 8
+    c: 7
+    d: 5
+    answer: 2
+  - fact: 12 - 7 =
+    a: 7
+    b: 6
+    c: 5
+    d: 3
+    answer: 3
+  - fact: 11 - 6 =
+    a: 7
+    b: 8
+    c: 5
+    d: 2
+    answer: 3
+  - fact: 10 - 6 =
+    a: 7
+    b: 8
+    c: 5
+    d: 4
+    answer: 4
+  - fact: '9 - 1 = '
+    a: 7
+    b: 8
+    c: 5
+    d: 4
+    answer: 2
+  - fact: 8 - 0 =
+    a: 7
+    b: 2
+    c: 8
+    d: 4
+    answer: 3
+  - fact: 7 - 4 =
+    a: 7
+    b: 2
+    c: 8
+    d: 3
+    answer: 4
+  - fact: 6 - 3 =
+    a: 3
+    b: 2
+    c: 8
+    d: 6
+    answer: 1
+  - fact: '5 - 2 = '
+    a: 3
+    b: 2
+    c: 8
+    d: 6
+    answer: 1
+  - fact: 4 - 4 =
+    a: 3
+    b: 0
+    c: 8
+    d: 6
+    answer: 2
+  - fact: 3 - 1 =
+    a: 3
+    b: 5
+    c: 2
+    d: 6
+    answer: 3
+  - fact: 2 - 1 =
+    a: 3
+    b: 5
+    c: 2
+    d: 1
+    answer: 4
+  - fact: 1 - 1 =
+    a: 3
+    b: 0
+    c: 2
+    d: 1
+    answer: 2
+  - fact: 12 - 2 =
+    a: 3
+    b: 10
+    c: 2
+    d: 1
+    answer: 2
+  - fact: 44 - 4 =
+    a: 38
+    b: 40
+    c: 41
+    d: 39
+    answer: 2
+  - fact: 23 - 4 =
+    a: 20
+    b: 18
+    c: 19
+    d: 17
+    answer: 3
+  - fact: 32 - 8 =
+    a: 20
+    b: 22
+    c: 24
+    d: 26
+    answer: 3
+  - fact: '16 - 7 = '
+    a: 9
+    b: 8
+    c: 7
+    d: 10
+    answer: 1
+  - fact: 32 - 10 =
+    a: 22
+    b: 23
+    c: 24
+    d: 26
+    answer: 1
+  - fact: 25 - 23
+    a: 2
+    b: 3
+    c: 4
+    d: 21
+    answer: 1
+  faceText: {fileID: 0}
+  aText: {fileID: 0}
+  bText: {fileID: 0}
+  cText: {fileID: 0}
+  dText: {fileID: 0}
+  timeBetweenQuestions: 1
+  Quiz: {fileID: 0}

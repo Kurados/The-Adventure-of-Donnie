@@ -1,0 +1,233 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &22933686817690882
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 22933686817690880}
+  - component: {fileID: 22933686817690883}
+  m_Layer: 0
+  m_Name: EASY ADDITION
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &22933686817690880
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22933686817690882}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -27.44629, y: 7.3265533, z: -20.159082}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &22933686817690883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22933686817690882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef0f100b2f30e046ae97e5749a48f13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _questions:
+  - fact: ' 1 + 1='
+    a: 2
+    b: 3
+    c: 4
+    d: 5
+    answer: 1
+  - fact: '2 + 2 = '
+    a: 3
+    b: 4
+    c: 5
+    d: 6
+    answer: 2
+  - fact: 3 + 3 =
+    a: 1
+    b: 2
+    c: 6
+    d: 3
+    answer: 3
+  - fact: '4 + 4 = '
+    a: 3
+    b: 2
+    c: 1
+    d: 8
+    answer: 4
+  - fact: '9 + 4 = '
+    a: 13
+    b: 10
+    c: 8
+    d: 5
+    answer: 1
+  - fact: '7 + 3 = '
+    a: 9
+    b: 10
+    c: 8
+    d: 6
+    answer: 2
+  - fact: '5 + 5 = '
+    a: 9
+    b: 11
+    c: 10
+    d: 6
+    answer: 3
+  - fact: '1 + 5 = '
+    a: 8
+    b: 6
+    c: 1
+    d: 4
+    answer: 2
+  - fact: '8 + 4 = '
+    a: 9
+    b: 4
+    c: 6
+    d: 12
+    answer: 4
+  - fact: '4 + 2 = '
+    a: 9
+    b: 4
+    c: 6
+    d: 12
+    answer: 3
+  - fact: '2 + 5 = '
+    a: 7
+    b: 3
+    c: 6
+    d: 8
+    answer: 1
+  - fact: '9 + 9 = '
+    a: 0
+    b: 18
+    c: 9
+    d: 10
+    answer: 2
+  - fact: '10 + 9 = '
+    a: 19
+    b: 10
+    c: 1
+    d: 9
+    answer: 1
+  - fact: '2 + 9 = '
+    a: 11
+    b: 10
+    c: 7
+    d: 2
+    answer: 1
+  - fact: '4 + 7 = '
+    a: 3
+    b: 11
+    c: 4
+    d: 10
+    answer: 2
+  - fact: '4 + 7 = '
+    a: 3
+    b: 11
+    c: 4
+    d: 10
+    answer: 2
+  - fact: 9 + 12  =
+    a: 21
+    b: 3
+    c: 4
+    d: 11
+    answer: 1
+  - fact: '8 + 7 = '
+    a: 1
+    b: 15
+    c: 12
+    d: 6
+    answer: 2
+  - fact: 10 + 4 =
+    a: 6
+    b: 12
+    c: 14
+    d: 8
+    answer: 3
+  - fact: 10 + 2 =
+    a: 8
+    b: 12
+    c: 14
+    d: 6
+    answer: 2
+  - fact: '12 + 6 = '
+    a: 6
+    b: 12
+    c: 14
+    d: 18
+    answer: 4
+  - fact: '8 + 10 = '
+    a: 2
+    b: 16
+    c: 18
+    d: 4
+    answer: 3
+  - fact: 2 + 7 =
+    a: 5
+    b: 8
+    c: 6
+    d: 9
+    answer: 4
+  - fact: 1 + 10 =
+    a: 9
+    b: 11
+    c: 7
+    d: 12
+    answer: 2
+  - fact: '7 +  10 = '
+    a: 7
+    b: 3
+    c: 17
+    d: 12
+    answer: 3
+  - fact: 14 + 2 =
+    a: 12
+    b: 16
+    c: 7
+    d: 9
+    answer: 2
+  - fact: '4 + 8  = '
+    a: 12
+    b: 4
+    c: 6
+    d: 14
+    answer: 1
+  - fact: '9 + 4 = '
+    a: 14
+    b: 4
+    c: 6
+    d: 13
+    answer: 4
+  - fact: 12 + 4 =
+    a: 18
+    b: 16
+    c: 8
+    d: 4
+    answer: 2
+  - fact: '8 + 11 = '
+    a: 19
+    b: 16
+    c: 8
+    d: 4
+    answer: 1
+  faceText: {fileID: 0}
+  aText: {fileID: 0}
+  bText: {fileID: 0}
+  cText: {fileID: 0}
+  dText: {fileID: 0}
+  timeBetweenQuestions: 1
+  Quiz: {fileID: 0}

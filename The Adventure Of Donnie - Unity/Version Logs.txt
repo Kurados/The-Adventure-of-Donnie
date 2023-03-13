@@ -1,0 +1,18 @@
+Patch Notes
+
+Version:
+1.0.0
+Background Added.
+Character Added.
+
+1.0.2
+Platform sprites added.
+
+1.0.2b
+UI assets added.
+Instructions in-game added.
+Coins added.
+
+1.0.3
+Tilemaps white line fixed.
+

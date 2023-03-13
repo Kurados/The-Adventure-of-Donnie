@@ -2,12 +2,12 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll]ibrary/
+/The-Adventure-of-Donnie/[Ll]ibrary
 /[Tt]emp/
-/[Oo]bj/
+/The-Adventure-of-Donnie/[Oo]bj
 /[Bb]uild/
 /[Bb]uilds/
-/[Ll]ogs/
+/The-Adventure-of-Donnie/[Ll]ogs
 /[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
